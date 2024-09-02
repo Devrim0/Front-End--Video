@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 70px;
+}
+
+.max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.playall {
+    display: none;
+}
+
+.playlistcard:hover .playall {
+    display: block;
+}
+.videocard:hover .playall {
+    display: block;
+}
